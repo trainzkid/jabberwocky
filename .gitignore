@@ -1,2 +1,3 @@
-# ignore all files in the build directory, likely output files or executables
+# ignore all files in the build directory, likely output files or executables, EXCEPT for the .gitignore file, as git doesn't track directories that are empty
 /build/*
+!/build/.gitignore
