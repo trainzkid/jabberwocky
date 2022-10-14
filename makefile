@@ -2,11 +2,12 @@ HEADERS_DIR=src/headers
 CPP_DIR=src
 BUILD_DIR=build
 CC=g++
+CC_FLAGS=-std=c++17
 
 # build an executable called "jabber" by default (since it's the first build option listed) when running just "make" by itself
 jabber:
 	@echo "Building jabber.."
-	@$(CC) -o $(BUILD_DIR)/jabber -I$(HEADERS_DIR) $(CPP_DIR)/*.cpp && echo "Jabber built successfully!"
+	@$(CC) $(CC_FLAGS) -o $(BUILD_DIR)/jabber -I$(HEADERS_DIR) $(CPP_DIR)/*.cpp && echo "Jabber built successfully!"
 
 #.PHONY means don't operate on a file called "clean" when running the "clean" option below
 .PHONY: clean
