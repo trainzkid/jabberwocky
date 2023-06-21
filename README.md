@@ -1,8 +1,8 @@
 # Jabberwocky
 *Beware the Jabberwock, my son!*
-*&nbsp;&nbsp;&nbsp;&nbsp;The jaws that bite, the claws that catch!*
-*&nbsp;&nbsp;&nbsp;&nbsp;Beware the Jubjub bird, and shun*
-*The frumious Bandersnatch!”*
+*The jaws that bite, the claws that catch!*
+*Beware the Jubjub bird, and shun*
+*The frumious Bandersnatch!*
 
 ### Planned Features
 - Sentence/paragraph generation (random, potentially with constraints)
